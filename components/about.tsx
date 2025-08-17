@@ -13,7 +13,7 @@ export function About() {
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold font-heading text-foreground mb-4">About Me</h2>
             <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Get to know the person behind the code</p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Get to know the person behind everything</p>
           </div>
         </AnimatedSection>
 

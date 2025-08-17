@@ -106,7 +106,7 @@ export function Projects() {
                 {/* Project Image */}
                 <div className="relative h-64 lg:h-96 overflow-hidden group">
                   <img
-                    src={"/portfolio" || projects[currentProject].image || "/placeholder.svg"}
+                    src={"/portfolio/" || projects[currentProject].image || "/placeholder.svg"}
                     alt={projects[currentProject].title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -206,7 +206,7 @@ export function Projects() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src={"/portfolio" || project.image || "/placeholder.svg"}
+                    src={"/portfolio/" || project.image || "/placeholder.svg"}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

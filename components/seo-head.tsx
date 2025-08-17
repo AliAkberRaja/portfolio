@@ -20,7 +20,7 @@ export function SEOHead({
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="author" content="Ali Akbar" />
+      <meta name="author" content="Ali Akbar " />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       {/* Open Graph */}

@@ -64,7 +64,7 @@ export function Hero() {
           >
              <div className="flex justify-center mb-6">
   <img
-  src="/images/about.png"
+  src="/portfolio/images/about.png"
   alt="Ali Akbar"
   className="rounded-full border-4 border-accent shadow-lg w-16 h-16 sm:w-24 sm:h-24 lg:w-40 lg:h-40"
 />

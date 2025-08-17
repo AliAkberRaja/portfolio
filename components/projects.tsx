@@ -15,7 +15,7 @@ export function Projects() {
       title: "DermaVision",
       description:
         "An AI-driven mobile application utilizing Convolutional Neural Networks (CNNs) for real-time analysis and detection of major skin diseases. Provides accessible and accurate diagnostic support through advanced machine learning algorithms.",
-      image: "/images/work4.png",
+      image: "/portfolio/images/work4.png",
       technologies: ["Flutter", "Python", "TensorFlow", "CNN", "Firebase", "Mobile AI"],
       githubUrl: "https://github.com/AliAkberRaja/dermavision-flutter",
       liveUrl: "#",
@@ -25,7 +25,7 @@ export function Projects() {
       title: "Trash Segregation System",
       description:
         "CNN-based automated waste segregation system that enhances the accuracy of recyclable material identification and sorting. Contributes to environmental sustainability through intelligent waste management.",
-      image: "/ai-waste-sorting.png",
+      image: "/portfolio/ai-waste-sorting.png",
       technologies: ["Python", "OpenCV", "TensorFlow", "Computer Vision", "CNN", "IoT"],
       githubUrl: "https://github.com/AliAkberRaja/TrashSegregation",
       liveUrl: "#",
@@ -35,7 +35,7 @@ export function Projects() {
       title: "Portfolio Website",
       description:
         "Modern, responsive portfolio website built with Next.js and Tailwind CSS. Features smooth animations, dark/light theme toggle, and optimized performance for showcasing professional work.",
-      image: "/dark-portfolio-website.png",
+      image: "/portfolio/dark-portfolio-website.png",
       technologies: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Framer Motion"],
       githubUrl: "#",
       liveUrl: "#",
@@ -45,7 +45,7 @@ export function Projects() {
       title: "E-Commerce Mobile App",
       description:
         "Full-stack e-commerce mobile application with user authentication, product catalog, shopping cart, and payment integration. Built with Flutter and Firebase for seamless user experience.",
-      image: "/images/work5.png",
+      image: "/portfolio/images/work5.png",
       technologies: ["Flutter", "Firebase", "Stripe API", "Provider", "REST API"],
       githubUrl: "#",
       liveUrl: "#",
@@ -55,7 +55,7 @@ export function Projects() {
       title: "Real-time Chat Application",
       description:
         "Real-time messaging application with group chats, file sharing, and push notifications. Features modern UI design and efficient real-time communication using WebSocket technology.",
-      image: "/modern-chat-app.png",
+      image: "/portfolio/modern-chat-app.png",
       technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express", "JWT"],
       githubUrl: "#",
       liveUrl: "#",
@@ -65,7 +65,7 @@ export function Projects() {
       title: "Smart Home IoT Dashboard",
       description:
         "IoT dashboard for monitoring and controlling smart home devices. Features real-time data visualization, device management, and automated scheduling with responsive design.",
-      image: "/smart-home-iot-dashboard.png",
+      image: "/portfolio/smart-home-iot-dashboard.png",
       technologies: ["React", "Python", "MQTT", "Raspberry Pi", "Chart.js", "WebSocket"],
       githubUrl: "#",
       liveUrl: "#",
@@ -106,7 +106,7 @@ export function Projects() {
                 {/* Project Image */}
                 <div className="relative h-64 lg:h-96 overflow-hidden group">
                   <img
-                    src={"/portfolio/" || projects[currentProject].image || "/placeholder.svg"}
+                    src={projects[currentProject].image || "/placeholder.svg"}
                     alt={projects[currentProject].title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -206,7 +206,7 @@ export function Projects() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src={"/portfolio/" || project.image || "/placeholder.svg"}
+                    src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

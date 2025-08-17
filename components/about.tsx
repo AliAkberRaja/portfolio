@@ -25,7 +25,7 @@ export function About() {
       {/* Image Container */}
       <div className="w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-2xl transition-transform duration-300 group-hover:scale-105 bg-white dark:bg-neutral-800">
         <img
-          src="/images/main.png"
+          src="/portfolio/images/main.png"
           alt="Ali Akbar"
           className="w-full h-full object-cover"
         />

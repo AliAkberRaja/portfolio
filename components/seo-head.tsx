@@ -9,7 +9,7 @@ interface SEOHeadProps {
 }
 
 export function SEOHead({
-  title = "Ali Akbar | Software Engineer & AI Enthusiast",
+  title = "Ali Akbar | Software Engineer & Full Stack Developer",
   description = "Modern portfolio showcasing software engineering projects, AI research, and creative work by Ali Akbar",
   keywords = "Software Engineer, AI, Machine Learning, Portfolio, React, Flutter, Web Development",
   ogImage = "/og-image.png",
